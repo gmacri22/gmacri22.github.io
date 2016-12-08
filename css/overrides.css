@@ -1,0 +1,272 @@
+/************/
+/* BASICS */
+/************/
+
+h1 {
+  color: #249324; /*#337ab7;*/
+}
+
+@font-face {
+  font-family: "handwriting";
+  src: url(../fonts/handwriting/InkBlossoms.otf) format("opentype");
+}
+
+.handwriting {
+  font-family: 'handwriting';
+}
+
+@font-face {
+  font-family: "header";
+  src: url(../fonts/headers/Intro.otf) format("opentype");
+}
+
+.header {
+  font-family: 'header';
+}
+
+.right-justify {
+  text-align: right;
+}
+
+section {
+  padding-bottom: 5em;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    padding-top: 11em;
+    padding-bottom: 9em;
+    color: #fff;
+}
+
+.jumbotron p {
+  line-height: 1.7em;
+  letter-spacing: .03em;
+  float:left;
+  width:66%;
+}
+
+#bigger {
+  font-size: 90px;
+}
+
+#r {
+  font-size: 34px;
+}
+
+@media only screen and (max-width: 768px) {
+  #r {
+    font-size: 21px;
+  }
+}
+
+.jumbotron {
+  /* image source: https://www.flickr.com/photos/conversely/1258089658/ */
+  background-image: url('../images/5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+}
+
+/************/
+/* NAV BAR */
+/************/
+
+.navbar-inverse {
+  background-color: #fff;
+  border-color: #249324; /*#337ab7;*/
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #333;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #249324; /*#337ab7;*/
+}
+
+.navbar-inverse .navbar-brand {
+    color: #249324; /*#337ab7;*/
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color: #124912; /*#0D4573;*/
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  background-color: #249324; /*#337ab7;*/
+  color: #fff;
+}
+
+/***********/
+/* LINKS */
+/***********/
+
+a:hover {
+  color: #249324; /*#337ab7;*/
+}
+
+.not-a-link {
+	color: #249324; /*#337ab7;*/
+}
+
+.not-a-link-button {
+  color: #333;
+}
+
+.not-a-link:focus, .not-a-link:hover {
+  color: #249324; /*#337ab7;*/
+  text-decoration: none;
+}
+
+.not-a-link-icon {
+  color: #249324; /*#337ab7;*/
+}
+
+.not-a-link-icon:focus, .not-a-link-icon:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.not-a-link-grey {
+  color: #333;
+}
+
+.not-a-link-grey:focus, .not-a-link-grey:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.not-a-link-button1 {
+  color: #fff;
+}
+
+.not-a-link-button1:focus, .not-a-link-button1:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.not-a-link-button2 {
+  color: #333;
+}
+
+.not-a-link-button2:focus, .not-a-link-button2:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.form-control {
+  margin-bottom: 25px;
+}
+
+.white-space {
+  padding-bottom: 20px;
+}
+
+/**********/
+/* SKILLS */
+/**********/
+
+.big {
+  font-size: 18px;
+  padding: .35em;
+  margin: .25em;
+  line-height: 2.5em;
+  white-space: nowrap;
+}
+
+.inline {
+  display: inline;
+  padding-right: .2em;
+}
+
+div .skills {
+  margin-bottom: 1em;
+}
+
+/**********/
+/* SLIDES */
+/**********/
+#leftArrow {
+  padding-top: 100%;
+}
+
+#rightArrow {
+  padding-top: 100%;
+}
+
+/**********/
+/* MISC */
+/**********/
+
+#website-label {
+  text-align: center;
+}
+
+.panel-body {
+  padding: 25px;
+}
+
+#education {
+  background-image: url('../images/rushrhizzle.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+}
+
+footer p {
+  color: #4fa84f; /*#9DC2E0;*/
+}
+
+#rickett-credit {
+  color: #4fa84f; /*#9DC2E0;*/
+}
+
+#rickett-credit:focus, #rickett-credit:hover {
+  color: #249324; /*#337ab7;*/
+  text-decoration: none;
+}
+
+#contact h2>.fa {
+  font-size: 50%;
+}
+.fa:hover {
+  color: #124912; /*#0D4573;*/
+}
+.glyphicon:hover {
+  color: #124912; /*#0D4573;*/
+}
+
+.featured-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5em;
+}
+
+.rotate {
+  padding-top: 2em;
+  transform: rotate(-1.5deg);
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #333;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #eee;
+}
+
+code {
+  color: #249324; /*#337ab7;*/
+  background-color: #d3e9d3; /*#E4F0FB;*/
+}
+
+.centered {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
